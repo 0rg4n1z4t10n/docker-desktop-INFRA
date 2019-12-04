@@ -1,0 +1,17 @@
+{
+  "cluster_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "docker-desktop"
+  },
+  "infra_repo": {
+    "sensitive": false,
+    "type": "string",
+    "value": "git@github.com:0rg4n1z4t10n/docker-desktop-INFRA.git"
+  },
+  "state_repo": {
+    "sensitive": false,
+    "type": "string",
+    "value": "git@github.com:0rg4n1z4t10n/docker-desktop-STATE-argocd.git"
+  }
+}
