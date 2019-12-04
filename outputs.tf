@@ -9,3 +9,7 @@ output "infra_repo" {
 output "state_repo" {
   value = github_repository.cluster_state_argocd.ssh_clone_url
 }
+
+output "state_potato_repo" {
+  value = github_repository.cluster_state_potato.ssh_clone_url
+}

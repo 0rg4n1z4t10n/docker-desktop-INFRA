@@ -13,3 +13,7 @@ variable "github_organization" {
 variable "state_argocd_key" {
   type = string
 }
+
+variable "state_potato_key" {
+  type = string
+}
